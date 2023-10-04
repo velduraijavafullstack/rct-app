@@ -4,12 +4,8 @@ import ListGroup from "./Component/ListGroup";
 function App() {
   return (
     <div>
-      <div>
-        <ListGroup />
-      </div>
-      <div>
-        <ListGroup1 />
-      </div>
+      <ListGroup />
+      <ListGroup1 />
     </div>
   );
 }

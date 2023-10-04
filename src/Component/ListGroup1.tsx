@@ -1,11 +1,13 @@
 function ListGroup1() {
-  const names = ["Vel", "raja", "manik"];
+  const names = ["Vel", "raja", "manik", "PMMRV"];
   return (
-    <div>
+    <>
       <h1>Names</h1>
       <ul className="list-group">
         {names.map((name) => (
-          <li className="list-group-item">{name}</li>
+          <li className="list-group-item" key={name}>
+            {name}
+          </li>
         ))}
         {/* <li>List One</li>
         <li>List Two</li>
@@ -13,7 +15,7 @@ function ListGroup1() {
         <li>List Four</li>
         <li>List Five</li> */}
       </ul>
-    </div>
+    </>
   );
 }
 export default ListGroup1;
