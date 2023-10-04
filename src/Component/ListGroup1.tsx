@@ -1,5 +1,6 @@
 function ListGroup1() {
   const names = ["Vel", "raja", "manik", "PMMRV"];
+  const cities = ["Chennai", "Tirunelveli", "Madurai", "kovai"];
   return (
     <>
       <h1>Names</h1>
@@ -8,6 +9,9 @@ function ListGroup1() {
           <li className="list-group-item" key={name}>
             {name}
           </li>
+        ))}
+        {cities.map((city) => (
+          <li className="list-group-item">{city}</li>
         ))}
         {/* <li>List One</li>
         <li>List Two</li>
