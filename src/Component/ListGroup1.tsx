@@ -3,9 +3,9 @@ function ListGroup1() {
   return (
     <div>
       <h1>Names</h1>
-      <ul>
+      <ul className="list-group">
         {names.map((name) => (
-          <li>{name}</li>
+          <li className="list-group-item">{name}</li>
         ))}
         {/* <li>List One</li>
         <li>List Two</li>
