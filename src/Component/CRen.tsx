@@ -1,5 +1,5 @@
 function CRen() {
-  const name = ["Naveen"];
+  const name = [];
   if (name.length > 0)
     return (
       <>
