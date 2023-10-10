@@ -1,5 +1,9 @@
 function Ternary() {
-  const arrays = obj.val;
+  // const obj = {
+  //   val: ["val1", "val2", "val3"],
+  // };
+
+  const arrays = ["val1", "val2", "val3"];
 
   return (
     <>
@@ -8,13 +12,16 @@ function Ternary() {
       {arrays.length === 0 && <p>Array is not empty</p>}
       <ul className="list-group">
         {arrays.map((array) => (
-          <li className="list-group-item">{array}</li>
+          <li
+            className="list-group-item"
+            key={array}
+            onClick={() => console.log("clicked")}
+          >
+            {array}
+          </li>
         ))}
       </ul>
     </>
   );
 }
 export default Ternary;
-const obj = {
-  val: ["val1", "val2", "val3"],
-};

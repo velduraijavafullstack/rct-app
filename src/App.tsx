@@ -3,6 +3,7 @@ import ListGroup from "./Component/ListGroup";
 import CRen from "./Component/CRen";
 import CRen1 from "./Component/CRen1";
 import Ternary from "./Component/ternary";
+import Event from "./Component/event";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <CRen />
       <CRen1 />
       <Ternary />
+      <Event />
     </div>
   );
 }

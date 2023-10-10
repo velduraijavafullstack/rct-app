@@ -1,12 +1,12 @@
 function CRen() {
-  const name = [];
+  const name = [""];
   if (name.length > 0)
     return (
       <>
         <h6 className="bg-danger">Conditional Rendering</h6>
-        <p className="bg-mark">Naveen bro Eligible for marraige</p>
+        <p className="text-danger">Rendering Successfully</p>
       </>
     );
-  else return <>{<p>No marriage for naveem</p>}</>;
+  else return <>{<p>Can't able to Render</p>}</>;
 }
 export default CRen;
