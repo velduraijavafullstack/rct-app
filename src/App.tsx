@@ -4,6 +4,7 @@ import CRen from "./Component/CRen";
 import CRen1 from "./Component/CRen1";
 import Ternary from "./Component/ternary";
 import Event from "./Component/event";
+import Mstates from "./Component/states";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <CRen1 />
       <Ternary />
       <Event />
+      <Mstates />
     </div>
   );
 }
