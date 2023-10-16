@@ -12,7 +12,7 @@ function LGprops() {
       <h1>Cities</h1>
       <ul>
         {cities.map((city) => (
-          <li key={city}>{City}</li>
+          <li key={city}>{city}</li>
         ))}
       </ul>
     </div>

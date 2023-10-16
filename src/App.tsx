@@ -6,6 +6,7 @@ import Ternary from "./Component/ternary";
 import Event from "./Component/event";
 import Mstates from "./Component/states";
 import LGprops from "./Component/LGprops";
+import Rafce from "./Component/Rafce";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Event />
       <Mstates />
       <LGprops />
+      <Rafce />
     </div>
   );
 }
