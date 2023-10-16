@@ -3,7 +3,7 @@ import { useState } from "react";
 function Mstates() {
   const state = ["TamilNadu", "Karnataka", "Kerala", "Anthra"];
   // const selectedIndex = 0;
-  const [selectedIndex, setSelectedIndex] = useState(2);
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
     <div>

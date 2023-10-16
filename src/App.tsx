@@ -5,6 +5,7 @@ import CRen1 from "./Component/CRen1";
 import Ternary from "./Component/ternary";
 import Event from "./Component/event";
 import Mstates from "./Component/states";
+import LGprops from "./Component/LGprops";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Ternary />
       <Event />
       <Mstates />
+      <LGprops />
     </div>
   );
 }
