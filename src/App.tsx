@@ -7,10 +7,15 @@ import Event from "./Component/event";
 import Mstates from "./Component/states";
 import LGprops from "./Component/LGprops";
 import Rafce from "./Component/Rafce";
+import Alert from "./Component/alert";
+import Button from "./Component/Button";
 
 function App() {
   return (
     <div>
+      <Alert>Hellow All</Alert>
+      <Button />
+      {/* </Alert> */}
       <ListGroup />
       <ListGroup1 />
       <CRen />
