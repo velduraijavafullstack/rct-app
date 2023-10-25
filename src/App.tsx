@@ -7,14 +7,20 @@ import Event from "./Component/event";
 import Mstates from "./Component/states";
 import LGprops from "./Component/LGprops";
 import Rafce from "./Component/Rafce";
-import Alert from "./Component/alert";
+import Alert from "./Component/Alert";
 import Button from "./Component/Button";
 
 function App() {
   return (
     <div>
       <Alert>Hellow All</Alert>
-      <Button />
+      <Button
+        children={"But"}
+        color={"btn btn-primary"}
+        onClick={function (): void {
+          throw new Error("Function not implemented.");
+        }}
+      />
       {/* </Alert> */}
       <ListGroup />
       <ListGroup1 />
